@@ -1,0 +1,493 @@
+/* XL Device: 1200px */
+@media (min-width:1200px) and (max-width:1550px) {}
+
+/* LG Device: 992px */
+@media (min-width:992px) and (max-width:1199px) {
+
+    .search-box {
+        display: inherit;
+        margin-left: 10px;
+        padding: 8px 8px;
+    }
+
+    .search-text {
+        width: 80px;
+    }
+
+    .header ul li {
+        margin: 0 11px;
+    }
+
+    .header .button {
+        padding: 12px 10px;
+        font-size: 12px;
+    }
+
+    .nav-btn {
+        margin-left: 12px;
+    }
+
+    .slider-content {
+        margin: 0;
+    }
+
+    .feature-item {
+        padding: 40px 25px 30px 25px;
+    }
+
+    .news-area:after {
+        top: 50%;
+        left: 0%;
+    }
+
+    .newsletter-box {
+        margin-left: 20px;
+    }
+
+    .newsletter-box .newsletter-text {
+        width: 195px;
+        margin-right: 10px;
+    }
+
+    .about-intro-item {
+        padding: 35px 30px;
+    }
+
+    .contact-message-body {
+        padding: 30px 35px 25px 35px;
+    }
+
+    .contact-message-body input {
+        padding: 20px;
+    }
+
+    .contact-message-body textarea {
+        padding: 15px 20px 15px 20px;
+    }
+
+    .contact-message-body h3 {
+        margin-bottom: 25px;
+    }
+
+    .contact-message-body .button {
+        padding: 10px 28px;
+    }
+
+}
+
+/* MD Device: 768px */
+@media (min-width:768px) and (max-width:991px) {
+
+    .section-title h3 {
+        font-size: 42px;
+    }
+
+    .button {
+        padding: 15px 25px;
+    }
+
+    .feature-item .feature-details p {
+        font-size: 14px;
+    }
+
+    .slider-content h1 {
+        font-size: 50px;
+    }
+
+    .slider-content {
+        margin: 0;
+    }
+
+    .feature-item {
+        margin-top: 30px;
+    }
+
+    .feature-item .feature-details h4 {
+        font-size: 18px;
+    }
+
+    .course-content h4.course-title {
+        font-size: 20px;
+    }
+
+    .single-course-hover .course-title {
+        font-size: 20px;
+    }
+
+    .newsletter-box {
+        margin-left: 0px;
+    }
+
+    .newsletter-box .newsletter-text {
+        margin-right: 0px;
+    }
+
+    .newsletter-box .button {
+        margin-top: 15px;
+    }
+
+    .newsletter .section-title h3 {
+        font-size: 32px;
+    }
+
+    .copyright-menu {
+        margin-left: 0px;
+    }
+
+    .footer-logo {
+        margin-bottom: 30px;
+    }
+
+    .team-title {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .team p {
+        padding: 30px 0px 0 0px;
+    }
+
+    .testimonial-nevigate {
+        position: absolute;
+        top: 60%;
+    }
+
+    .blog-archive-item-body a h3 {
+        font-size: 24px;
+    }
+
+    .contact-intro-title {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .contact-intro p br {
+        display: none;
+    }
+
+    .contact-info-item {
+        margin-top: 30px;
+    }
+
+    .contact-info {
+        padding: 30px 0 90px 0;
+    }
+
+}
+
+/* Extra Samll Device. */
+@media (max-width:767px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .sec-pad-top {
+        padding-top: 100px;
+    }
+
+    .sec-pad-bottom {
+        padding-bottom: 100px;
+    }
+
+    .section-title h3 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .slider {
+        height: 600px;
+    }
+
+    .slider-content {
+        margin: 0;
+    }
+
+    .slider-content h5 {
+        font-size: 18px;
+    }
+
+    .slider-content h1 {
+        font-size: 38px;
+        line-height: 52px;
+    }
+
+    .slider-content p {
+        font-size: 17px;
+    }
+
+    .slider-content p br {
+        display: none;
+    }
+
+    .button {
+        padding: 13px 18px;
+        font-size: 13px;
+    }
+
+    .slider .button,
+    .call-to-action .button {
+        margin-bottom: 15px;
+    }
+
+    .sponsor ul {
+        padding: 0;
+    }
+
+    .sponsor ul li {
+        width: 70px;
+        height: 70px;
+    }
+
+    .feature-item,
+    .single-news {
+        margin-top: 30px;
+    }
+
+    .feature.sec-pad-top {
+        padding-top: 70px;
+    }
+
+    .course-content h4.course-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .single-course-hover .course-title {
+        font-size: 18px;
+    }
+
+    .single-course-hover .excerpt-content p {
+        padding-bottom: 100px;
+    }
+
+    .call-to-action h2 {
+        font-size: 36px;
+    }
+
+    .call-to-action p {
+        line-height: 24px;
+        margin: 20px 0 30px 0;
+    }
+
+    .call-to-action p br {
+        display: none;
+    }
+
+    .funfact .container {
+        width: 95%;
+    }
+
+    .funfact-area {
+        padding: 30px 10px 15px 10px;
+    }
+
+    .funfact-item span {
+        font-size: 32px;
+    }
+
+    .testimonial.sec-pad-bottom {
+        padding-bottom: 70px;
+    }
+
+    .single-testimonial {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-nevigate i {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+
+    .testimonial-nevigate {
+        top: 85%;
+    }
+
+    .get-started.sec-pad-bottom {
+        padding-top: 30px;
+    }
+
+    .single-get-started h3 {
+        font-size: 32px;
+    }
+
+    .single-get-started {
+        margin-top: 30px;
+    }
+
+    .get-started-divider {
+        border: none;
+    }
+
+    .single-news-body h4 {
+        font-size: 22px;
+    }
+
+    .news-area .section-title {
+        padding-bottom: 30px;
+    }
+
+    .newsletter .section-title h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .newsletter-box {
+        margin-left: 0;
+    }
+
+    .newsletter-box .newsletter-text {
+        width: 210px;
+        margin-right: 0;
+        border-radius: 4px 0 0 4px;
+    }
+
+    .newsletter-box .button {
+        margin-top: 0;
+        padding: 11.5px 12px 13.5px 12px;
+        font-size: 0;
+        border-radius: 0 4px 4px 0;
+    }
+
+    .newsletter-box .button i {
+        font-size: 20px;
+        margin-right: 0;
+    }
+
+    .social-icon {
+        margin-top: 25px;
+    }
+
+    .copyright {
+        padding: 30px 0 25px 0
+    }
+
+    .copyright-menu {
+        margin-left: 0px;
+        margin-top: 35px;
+    }
+
+    p.copyright-text {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .copyright-text,
+    .copyright-menu {
+        line-height: 0;
+    }
+
+    .about-intro-title h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .about-intro-item {
+        padding: 30px 15px;
+        margin-bottom: 15px;
+    }
+
+    .about-intro-item h5 {
+        font-size: 20px;
+    }
+
+    .about-intro-video.sec-pad-top {
+        padding-top: 85px;
+    }
+
+    .about-intro-video-wrapper {
+        height: 250px;
+    }
+
+    .about-intro-video-wrapper a:before {
+        height: 50px;
+        width: 50px;
+    }
+
+    .about-intro-video a i {
+        font-size: 18px;
+    }
+
+    .team-title h3 {
+        font-size: 36px;
+    }
+
+    .team-title {
+        padding: 10px 0 0 0;
+    }
+
+    .team-title {
+        border-right: none;
+    }
+
+    .team p {
+        padding: 30px 0 0 0;
+    }
+
+    .contact-intro-title {
+        padding: 10px 0px 0px 0px;
+        border-right: none;
+        margin-right: 0;
+    }
+
+    .contact-intro p {
+        margin: 15px 0 0 0px;
+    }
+
+
+    .contact-info-item {
+        margin-top: 30px;
+        height: 120px;
+        padding: 30px 30px 20px 30px;
+    }
+
+    .contact-info {
+        padding: 40px 0 90px 0;
+    }
+
+    .hero {
+        height: 200px;
+    }
+
+    .hero-content h3 {
+        font-size: 30px;
+    }
+
+}
+
+/* SM Device: 550px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-course:hover .single-course-hover-content {
+        padding: 35px 25px 30px 25px;
+    }
+
+    .single-course-hover .excerpt-content p {
+        padding-bottom: 15px;
+    }
+
+    .course-content {
+        padding: 0 35px 25px 35px;
+    }
+
+    .course-footer span.course-price {
+        margin-top: 10px;
+    }
+
+    .newsletter-box .newsletter-text {
+        width: 305px;
+    }
+
+    .newsletter-box .button {
+        padding: 13px 12px 13.5px 12px;
+        font-size: 13px;
+    }
+
+    .newsletter-box .button i {
+        font-size: 14px;
+        margin-right: 8px;
+    }
+
+    .team-title {
+        border-right: 1px solid #D4D8E0;
+    }
+
+}
